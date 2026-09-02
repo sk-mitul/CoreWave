@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Core Wave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <nav
-        class="navbar navbar-expand-sm navbar-light bg-light"
+        class="navbar navbar-expand-sm"
     >
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="./img/Logo.svg" alt="Logo"></a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -25,50 +28,35 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 fw-semibold">
+                    <li class="nav-item pe-5">
                         <a class="nav-link active" href="#" aria-current="page"
                             >Home
                             <span class="visually-hidden">(current)</span></a
                         >
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="dropdownId"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                            >Dropdown</a
-                        >
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="dropdownId"
-                        >
-                            <a class="dropdown-item" href="#"
-                                >Action 1</a
-                            >
-                            <a class="dropdown-item" href="#"
-                                >Action 2</a
-                            >
-                        </div>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
-                    <input
-                        class="form-control me-sm-2"
-                        type="text"
-                        placeholder="Search"
-                    />
                     <button
-                        class="btn btn-outline-success my-2 my-sm-0"
+                        class="btn my-2 my-sm-0 fw-semibold"
                         type="submit"
                     >
-                        Search
+                        Register
                     </button>
                 </form>
             </div>
